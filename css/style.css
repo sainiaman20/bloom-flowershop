@@ -1,0 +1,155 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
+body{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/*navbar*/
+.navbar{
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    color: #7b3f9e;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.nav-item{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+.nav-item li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-icons{
+    display: flex;
+    gap: 1.2rem;
+    font-size: 1.3rem;
+    color: #666;
+    
+}
+
+
+/*showcase */
+.showcase{
+    background: url("/images/header.jpg") no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.showcase-content {
+    font-size: 2rem;
+}
+.btn{
+    padding: 0.7rem 1.5rem;
+    background: #7b3f9e;
+    color:whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.05);
+}
+.btn:hover{
+    background:black;
+    transform: scale(1.05);
+}
+
+/*about*/
+.about-container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.about-container img {
+    width: 100%;
+    max-width:400px;
+    border-radius: 8px;
+    margin-left: ;
+}
+/*cart*/
+.cart-wrapper{
+    position: relative;
+}
+#cart-count{
+    position: absolute;
+    top: -10px;
+    right: -12px;
+    background: red;
+    color: whitesmoke;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 50%;
+}
+/*products*/
+.product-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.product-grid{
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+border-radius: 8px;
+}
+
+.product-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+/*reviews*/
+.review-box p{
+    background: #f9f9f9;
+    padding: 1rem;
+    border-left: 4px solid #4d9e3f;
+    margin: 1rem 0;
+}
+
+/*contact form */
+.contact-form{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+max-width: 500px;
+margin: auto;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}

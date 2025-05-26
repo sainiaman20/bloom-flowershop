@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8730800666.js" crossorigin="anonymous"></script>
+    <title>flower website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+          <h1 class="logo">BLOOM</h1>
+      
+          <ul class="nav-item">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#review">Review</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        
+          <div class="nav-icons">
+            <div class="cart-wrapper">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+            </div>
+            <i class="fas fa-user"></i>
+          </div>
+        </div>
+      </nav>
+      
+    
+ <!-- showcase-->
+    <section class="showcase" id="home">
+        <div class="showcase-content">
+            <p >Welcome to the</p>
+            <h1 > Bloom Collection</h1>
+            
+            <a href="#product"class="btn">Shop Flowers</a>
+
+
+        </div>
+        <!--About section-->
+    </section>
+    <section id="about" class="section">
+        <div class="about-container">
+            <div class="about-text">
+            <h2 class="small">About us</h2>
+            <h3>We spread Happiness</h3> 
+            <p>We craft handcrafted flower arrangements that bring joy to homes, events, and special occasions. Every bouquet is made with love, care, and a touch of elegance.</p>
+            </div>
+                <img src="./images/about.jpg" alt="Flowers">
+                <img src="./images/heart.jpg" alt="Rose bouquet">
+            </div>
+
+        </div>
+
+    </section>
+    <!--Product section-->
+    <section id="product" class="section">
+        <h2 class="section-title">Our Products</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="./images/yellow roses.jpg" alt="yellow bouquet"/>
+            <h3>Rose Bouquet</h3>
+        <p>$25.00</p>
+    <button class="btn">Add to Cart</button>
+</div>
+<div class="product-card">
+    <img src="./images/lilies.jpg" alt="lilies"/>
+    <h3>lilies Bouquet</h3>
+    <p>$30.00</p>
+    <button class="btn">Add to Cart</button>
+</div>
+<div class="product-card">
+    <img src="./images/redroses.jpg" alt="Red roses"/>
+    <h3>Red Roses Bouquet</h3>
+    <p>$25.00</p>
+    <button class="btn">Add to Cart</button>
+</div>
+<div class="product-card">
+    <img src="./images/peony.jpg" alt="peonies"/>
+    <h3>Peonies Bouquet</h3>
+    <p>$33.00</p>
+    <button class="btn">Add to Cart</button>
+</div>
+<div class="product-card">
+    <img src="./images/tulips.jpg" alt="Tulips"/>
+    <h3>Tulips Bouquet</h3>
+    <p>$20.00</p>
+    <button class="btn">Add to Cart</button>
+</div>
+
+        </div>
+    </section>
+    <!--Review Section-->
+    <section id="review" class="section">
+        <h2 class="section-title">Customer Reviews</h2>
+        <div class="review-box">
+            <p>"Beautiful flowers and great service!"-Ruhin</p>
+            <p>"Fast delivery and lovely packaging"- Akash</p>
+            <p>"Wide variety to chose from"- Bhavya</p>
+            <p>"Fresh flowers at a affordable price"- Abhay</p>
+            <p>"exotic flowers also available"- Hari</p>
+        </div>
+    </section>
+    <!--contact section-->
+    <section id="contact" class="section">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Your Email" required/>
+            <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send</button>
+    </form>
+    </section>
+    <script src="script.js"></script>
+    </body>
+</html>
