@@ -1,6 +1,8 @@
 🌸 Bloom – Flower Shop E-commerce Website
 
 A fully responsive flower e-commerce landing page built using HTML, CSS, and JavaScript.
+## 🚀 Live Demo
+👉 [View Website](https://sainiaman20.github.io/bloom-flowershop/)
 
 ## ✨ Features
 
