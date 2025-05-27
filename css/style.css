@@ -52,7 +52,7 @@ body{
 
 /*showcase */
 .showcase{
-    background: url("/images/header.jpg") no-repeat center center/cover;
+    background: url("../images/header.jpg") no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
