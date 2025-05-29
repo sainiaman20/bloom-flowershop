@@ -7,8 +7,6 @@ A fully responsive flower e-commerce landing page built using HTML, CSS, and Jav
 ## ✨ Features
 
 - 🛍️ Product showcase with cart counter
-- 🌙 Dark mode toggle
-- ⬆️ Scroll-to-top button
 - 🎯 Smooth hover animations
 - 📱 Fully responsive (mobile + desktop)
 - 🧠 Clean layout using CSS Grid & Flexbox
